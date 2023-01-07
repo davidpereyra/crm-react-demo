@@ -58,3 +58,23 @@ npm install -g json-server
 
 Define el archivo de servidor
 json-server --watch db.json
+
+Ejemplo de como importar el valor definido de una variable de entorno para Vite
+import.meta.env.VITE_API_URL
+
+definida en .env como
+VITE_API_URL = http://localhost:3000/clientes
+
+Error Boundaries = son componentes de React que obtiene los errores en cualquier lugar del componentes
+desde el router se utiliza el elemento
+errorElement: que por ejemplo, invoca al componente a mostrar el mensaje de error 
+Se debe usar useRouteError, al definir el componente de error
+
+
+como los action tiene que retornar algo, una vez usada la funcion de post por ejemplo usando la API, se puede retornar con un redirect de react router dom previamente importado
+
+return redirect('/')
+
+
+
+
