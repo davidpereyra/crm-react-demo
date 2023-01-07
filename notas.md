@@ -44,3 +44,17 @@ Form de react router dom para forms define un action que  esta definido como fun
 path: '/clientes/nuevo',
           element: <NuevoCliente />,
           action: nuevoClienteAction
+
+
+useActionData: mismo uso que useLoaderData pero con distintos componentes, se utiliza para poder acceder al contenido del action
+
+GIST validar email
+https://gist.github.com/codigoconjuan/b9afdae0a22f58f0de7fa754acc71699
+
+
+JSON Server
+https://www.npmjs.com/package/json-server
+npm install -g json-server
+
+Define el archivo de servidor
+json-server --watch db.json
